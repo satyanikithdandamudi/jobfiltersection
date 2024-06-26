@@ -3,7 +3,30 @@ body {
 }
 
 
+.jobs-filter-container{
+    background-color:rgb(230, 231, 234);
+    height:100vh;
+    padding-left: 20%;
+    margin-top:8%;
+    
+  
+}
+
 /*filters Section*/
-.filter-con{
-    height:20px;   
+
+.filters-section-container{
+    background-color: rgb(255, 255, 255);
+}
+.filter-icon {
+    height:22px;   
+    margin-top:2px;
+    display: block;
+    margin-right: 3px;
+    padding-top: 5px;
+}
+.filter-mainhead{
+    padding-top:5px;
+    font-family: "roboto";
+    font-size: 18px;
+
 }
