@@ -1,0 +1,9 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+
+/*filters Section*/
+.filter-con{
+    height:20px;   
+}
