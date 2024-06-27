@@ -5,7 +5,7 @@ body {
 
 .jobs-filter-container{
     background-color:rgb(230, 231, 234);
-    height:100vh;
+   
     padding-left: 5%;
     
       
@@ -49,6 +49,7 @@ body {
 }
   
   .select-box-label {
+    width:190px;
     font-family:"roboto"sans-serif;
     font-size: 15px;
     font-weight:600;
@@ -79,9 +80,9 @@ body {
   }
   
   .options label {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
-    padding: 10px;
+    padding: 0px;
     cursor: pointer;
   }
   

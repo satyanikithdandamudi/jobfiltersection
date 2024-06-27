@@ -15,7 +15,7 @@
 
 <body>
   
-    <div class="jobs-filter-container">
+    <div class="jobs-filter-container pt-5 pb-5">
         <div class="row">
             <div class="col-12 ">
                 <h1 class="filter-mainhead">
@@ -32,109 +32,323 @@
                     <div class="filters-section-container d-flex flex-column">
                         <div class="d-flex flex-row align-itrms-center pt-2">
                             <img class="filter-icon" src="assets/filter-icon.png"/>
-                            <h1 class="filter-subhead">Filters </h1>
+                            <h1 class="filter-subhead">Filters</h1>
                         </div>
                         <div class="d-flex flex-row select-box">
                             <details class="select-box-container">
-                                <summary class="select-box-label d-flex flex-row">
-                                    select the option
-                                    <div>
-                                        <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
-                                      </div>
-                                </summary>
+                              <summary class="select-box-label ">                                
+                                <div class="d-flex flex-row"> 
+                                  Sort by 
+                                  <div class="ml-auto">
+                                    <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                  </div> 
+                                </div>                            
+                              </summary>
                                 <div class="options">
                                   <label>
+                                    <input type="radio" name="option" value="0" />
+                                    Relevant
+                                  </label>
+                                  <label>
+                                    <input type="radio" name="option" value="1" />
+                                    Salary-High to low
+                                  </label>
+                                  <label>
                                     <input type="radio" name="option" value="2" />
-                                    2
+                                    Distance - Near to far
                                   </label>
                                   <label>
                                     <input type="radio" name="option" value="3" />
-                                    3
-                                  </label>
-                                  <label>
-                                    <input type="radio" name="option" value="hi" />
-                                    hi
+                                    Date posted - New to Old
                                   </label>
                                 </div>                               
                               </details>                            
                         </div> 
 
-                        <div class="d-flex flex-row select-box">
-                            <details class="select-box-container">
-                                <summary class="select-box-label d-flex flex-row">
-                                    select the option
-                                    <div>
-                                        <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
-                                      </div>
-                                </summary>
-                                <div class="options">
-                                  <label>
-                                    <input type="radio" name="option" value="2" />
-                                    2
-                                  </label>
-                                  <label>
-                                    <input type="radio" name="option" value="3" />
-                                    3
-                                  </label>
-                                  <label>
-                                    <input type="radio" name="option" value="hi" />
-                                    hi
-                                  </label>
-                                </div>                               
-                              </details>                             
-                        </div> 
 
                         <div class="d-flex flex-row select-box">
-                            <details class="select-box-container">
-                                <summary class="select-box-label">
-                                   
-                                    <div class="d-flex flex-row"> select the option
-                                        <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
-                                      </div>
-                                      <div class="">
-                                        oijrgopi
-                                      </div>
-                                </summary>
-                                <div class="options">
-                                  <label>
-                                    <input type="checkbox" name="option" value="2" />
-                                    2
-                                  </label>
-                                  <label>
-                                    <input type="checkbox" name="option" value="3" />
-                                    3
-                                  </label>
-                                  <label>
-                                    <input type="checkbox" name="option" value="hi" />
-                                    hi
-                                  </label>
-                                </div>  
-                              </details>                            
+                          <details class="select-box-container">
+                              <summary class="select-box-label ">                                
+                                  <div class="d-flex flex-row"> 
+                                    Experience 
+                                    <div class="ml-auto">
+                                      <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                    </div> 
+                                  </div>
+                                      <p>Your work experience</p>                                 
+                              </summary>
+                              <div class="options">
+                                <label>
+                                  <input type="range" min="0" max="20" value="0"/>
+                                    <div>0-20 years</div>
+                                </label>
+                              </div>  
+                            </details>                            
+                        </div> 
+
+
+                        <div class="d-flex flex-row select-box">
+                          <details class="select-box-container">
+                              <summary class="select-box-label ">                                
+                                  <div class="d-flex flex-row"> 
+                                    Salary 
+                                    <div class="ml-auto">
+                                      <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                    </div> 
+                                  </div>
+                                      <p>minimum minthly salary</p>                                 
+                              </summary>
+                              <div class="options">
+                                <label>
+                                  <input type="range" min="0" max="150000" value="0"/>
+                                  <div> 0 - 1.5 Lakhs</div>
+                                </label>
+                              </div>  
+                            </details>                            
                         </div> 
 
                         <div class="d-flex flex-row select-box">
                           <details class="select-box-container">
                               <summary class="select-box-label d-flex flex-row">
-                                  select the option
-                                  <div>
+                                  Date Posted
+                                  <div class="ml-auto">
                                       <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
                                     </div>
                               </summary>
                               <div class="options">
                                 <label>
-                                  <input type="range" min="0" max="20" value="0"/>
-                                    0-20
+                                  <input type="radio" name="option" value="0" />
+                                  All
                                 </label>
-                              </div>  
+                                <label>
+                                  <input type="radio" name="option" value="1" />
+                                  Last 24 hours
+                                </label>
+                                <label>
+                                  <input type="radio" name="option" value="2" />
+                                  last 3 days
+                                </label>
+                                <label>
+                                  <input type="radio" name="option" value="3" />
+                                  Last 7 days
+                                </label>
+                              </div>                               
                             </details>                            
                       </div> 
-                          
-    
-                          
+
+                      <div class="d-flex flex-row select-box">
+                        <details class="select-box-container">
+                            <summary class="select-box-label ">                                
+                                <div class="d-flex flex-row"> 
+                                  Highest education
+                                  <div class="ml-auto">
+                                    <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                  </div> 
+                                </div>
+                                    <p>Selelct your highest education level too see eligible jobs</p>                                 
+                            </summary>
+                            <div class="options">
+                              <label>
+                                <input type="radio" name="option" value="0" />
+                                12th Pass
+                              </label>
+                              <label>
+                                <input type="radio" name="option" value="1" />
+                                Diploma
+                              </label>
+                              <label>
+                                <input type="radio" name="option" value="2" />
+                                ITI
+                              </label>
+                              <label>
+                                <input type="radio" name="option" value="3" />
+                               Graduate
+                              </label>
+                              <label>
+                                <input type="radio" name="option" value="3" />
+                               Post Graduate
+                              </label>
+                            </div>      
+                          </details>                            
+                      </div> 
+
+
+
+                      <div class="d-flex flex-row select-box">
+                        <details class="select-box-container">
+                            <summary class="select-box-label d-flex flex-row">
+                                Work Mode
+                                <div class="ml-auto">
+                                    <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
+                                  </div>
+                            </summary>
+                            <div class="options">
+                              <label>
+                                <input type="checkbox" name="option" value="0" />
+                                Work form home
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="1" />
+                                Work from Office
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="2" />
+                                Work from Field
+                              </label>
+                            </div>                          
+                          </details>                            
+                    </div> 
+
+
+                    
+                    <div class="d-flex flex-row select-box">
+                      <details class="select-box-container">
+                          <summary class="select-box-label d-flex flex-row">
+                              Work Type
+                              <div class="ml-auto">
+                                  <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
+                                </div>
+                          </summary>
+                          <div class="options">
+                            <label>
+                              <input type="checkbox" name="option" value="0" />
+                              Full Time
+                            </label>
+                            <label>
+                              <input type="checkbox" name="option" value="1" />
+                              Part Time
+                            </label>
+                          </div>                          
+                        </details>                            
+                    </div> 
+
+
+                    <div class="d-flex flex-row select-box">
+                      <details class="select-box-container">
+                          <summary class="select-box-label d-flex flex-row">
+                              Work shift
+                              <div class="ml-auto">
+                                  <img class="dropdown-icon" src="assets/dropdown-icon.png"/>
+                                </div>
+                          </summary>
+                          <div class="options">
+                            <label>
+                              <input type="checkbox" name="option" value="0" />
+                              Day Shift
+                            </label>
+                            <label>
+                              <input type="checkbox" name="option" value="1" />
+                              Night Shift
+                            </label>
+                          </div>                          
+                        </details>                            
+                    </div> 
+
+
+                    <div class="d-flex flex-row select-box">
+                        <details class="select-box-container">
+                            <summary class="select-box-label ">                                
+                                <div class="d-flex flex-row"> 
+                                  Highest education
+                                  <div class="ml-auto">
+                                    <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                  </div> 
+                                </div>
+                                    <p>Selelct your highest education level too see eligible jobs</p>                                 
+                            </summary>
+                            <div class="options">
+                              <label>
+                                <input type="checkbox" name="option" value="0" />
+                                Day Shift
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="1" />
+                                Night Shift
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="2" />
+                                Work form home
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="3" />
+                                Work from Office
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="4" />
+                                Work from Field
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="5" />
+                                ged
+                              </label>
+                              <label>
+                                <input type="checkbox" name="option" value="6" />
+                                gsrbrbrdb
+                              </label>
+                            </div>              
+                          </details>                            
+                      </div> 
+
+
+                        <div class="d-flex flex-row select-box">
+                          <details class="select-box-container">
+                              <summary class="select-box-label ">                                
+                                  <div class="d-flex flex-row"> 
+                                    English level
+                                    <div class="ml-auto">
+                                      <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                    </div> 
+                                  </div>
+                                      <p>select your English level to see all eligible jobs</p>                                 
+                              </summary>
+                              <div class="options">
+                                <label>
+                                  <input type="radio" name="option" value="0" />
+                                  No English
+                                </label>
+                                <label>
+                                  <input type="radio" name="option" value="1" />
+                                  Basic English
+                                </label>
+                                <label>
+                                  <input type="radio" name="option" value="2" />
+                                  intermediate English
+                                </label>
+                                <label>
+                                  <input type="radio" name="option" value="3" />
+                                  Advanced English
+                                </label>
+                              </div>      
+                            </details>                            
+                        </div> 
+
+
+                          <div class="d-flex flex-row select-box">
+                            <details class="select-box-container">
+                              <summary class="select-box-label ">                                
+                                <div class="d-flex flex-row"> 
+                                  Gender
+                                  <div class="ml-auto">
+                                    <img class="dropdown-icon " src="assets/dropdown-icon.png"/>
+                                  </div> 
+                                </div>                            
+                              </summary>
+                                <div class="options">
+                                  <label>
+                                    <input type="radio" name="option" value="0" />
+                                    Male
+                                  </label>
+                                  <label>
+                                    <input type="radio" name="option" value="1" />
+                                    Female
+                                  </label>
+                                </div>                               
+                              </details>                            
+                        </div> 
+                                                                    
+                      </div>                  
                     </div>
-                </div>
-            
-                
+                </div>      
         </div>
     </div>
 
