@@ -3,12 +3,71 @@ body {
 }
 
 
+/* search section styling */
+
+.search-input-container {
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid gainsboro;
+  padding: 0 12px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  > img:nth-child(1) {
+      height: 26px;
+      padding-right: 10px;
+  }
+  > input {
+      outline: none;
+      border: 0 solid grey;
+      font-size: 17px;
+      color: #000000;
+      height: 90%;
+      margin-right: 8px;
+  }
+}
+
+.search-jobs-btn {
+  outline: none;
+  border: 0 solid grey;
+  background-color: rgb(31, 130, 104);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 19px;
+  border-radius: 5px;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.clear-text-locationIn-btn {
+  color: rgb(0, 0, 0);
+  outline: none !important;
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  margin-right: 1rem;
+  display: block;
+  visibility: hidden;
+}
+
+.location-img {
+  height: 29px;
+  padding: 0 12px; 
+}
+
+
+.options-input-el {
+  position: relative !important;
+}
+
+
+
+/*filters Section*/
+
 .jobs-filter-container{
-    background-color:rgb(230, 231, 234);
-   
-    padding-left: 5%;
-    
-      
+    background-color:rgb(230, 231, 234);  
+    padding-left: 5%;     
 }
 
 .filter-mainhead{
@@ -19,7 +78,7 @@ body {
     margin-bottom: 2%;
     color: #000000;
 }
-/*filters Section*/
+
 
 .filters-section-container{
     background-color: rgb(253, 253, 253);
