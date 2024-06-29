@@ -5,6 +5,8 @@ body {
 
 /* search section styling */
 
+
+
 .search-input-container {
   height: 60px;
   display: inline-flex;
@@ -12,7 +14,7 @@ body {
   border: 1px solid gainsboro;
   padding: 0 12px;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color:rgb(230, 231, 234); 
   > img:nth-child(1) {
       height: 26px;
       padding-right: 10px;
@@ -20,6 +22,7 @@ body {
   > input {
       outline: none;
       border: 0 solid grey;
+      background-color: rgb(230, 231, 234); 
       font-size: 17px;
       color: #000000;
       height: 90%;
