@@ -85,7 +85,7 @@ body {
     padding-left: 10px;
     padding-right:10px;
     border-radius: 10px;
-    width: 210px;
+    width: 240px;
 
 }
 .filter-icon {
@@ -105,11 +105,11 @@ body {
 
   .select-box-container {
     position: relative;/* Ensure relative positioning for absolute children */
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
   
   .select-box-label {
-    width:190px;
+    width:220px;
     font-family:"roboto"sans-serif;
     font-size: 15px;
     font-weight:600;
@@ -161,6 +161,8 @@ body {
         margin-left: 10px;
 
   }
+
+
 
 
 
